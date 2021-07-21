@@ -3,8 +3,8 @@
 
     //1. chiedi all’utente il cognome
     //2. inseriscilo in un array con altri cognomi: ‘Bianchi’, ‘Neri’, ‘Rossi’, ‘Verdi’, ‘Gialli’
-    3. stampa la lista ordinata alfabeticamente
-    4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
+    //3. stampa la lista ordinata alfabeticamente
+    //4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
 
 */
 
@@ -16,14 +16,7 @@
     
 */
 function Input(){
-    // // Array nominativi
-    // names = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli"];
-    // Input dell'utente
     var user_name = (prompt(`Inserisci il tuo nome:`)).trim();
-    // // Inserisco l'input nell'array 
-    // names.push(user_name);
-    // // Ritorno l'array
-    // return names;
     return user_name;
 }
 
