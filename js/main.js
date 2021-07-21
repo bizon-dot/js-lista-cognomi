@@ -11,7 +11,7 @@
  
 /*  
     ====================================================================================================
-        1.    Prendo l'input e inserisco il valore nell'array contenente altri nominativi
+        1.                                  Prendo l'input 
     ====================================================================================================
     
 */
@@ -38,7 +38,7 @@ function printData(user_name){
     //human index
     var humanIndex = names.indexOf(user_name) + 1;
     // Stampo l'index
-    console.log("L'index umani di " + user_name + "è: " + humanIndex);
+    console.log("L'index umano di " + user_name + "è: " + humanIndex);
 }
 
 function main(){
